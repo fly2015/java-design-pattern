@@ -1,8 +1,8 @@
 /*
  * Process.java
  *
- * Copyright by CRIF AG
- * Zürich
+ * Copyright by Hien Ng
+ * Da Nang, VN
  * All rights reserved.
  */
 package behavioural.observer.stock.simple;
