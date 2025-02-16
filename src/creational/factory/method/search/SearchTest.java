@@ -1,5 +1,4 @@
 package creational.factory.method.search;
-import org.junit.*;
 
 import creational.factory.method.search.dto.SearchForm;
 import creational.factory.method.search.impl.AbstractSearch;
@@ -8,6 +7,8 @@ import creational.factory.method.search.impl.PhoneSearch;
 import creational.factory.method.search.impl.StandardSearch;
 import creational.factory.method.search.util.SearchHelper;
 import creational.factory.method.search.util.SearchType;
+import org.junit.Assert;
+import org.junit.Test;
 
 public class SearchTest {
 	@Test

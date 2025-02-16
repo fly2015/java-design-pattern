@@ -1,14 +1,14 @@
 package creational.factory.method.order.process;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import creational.factory.method.order.dto.OrderType;
 import creational.factory.method.order.process.otp.OTPSenderImpl;
 import creational.factory.method.order.process.sendmail.MailSenderStrategy;
 import creational.factory.method.order.process.strategies.RetailOrderStrategy;
 import creational.factory.method.order.process.strategies.SpecialOrderStrategy;
 import creational.factory.method.order.process.strategies.WholeSaleOrderStrategy;
+
+import java.util.HashMap;
+import java.util.Map;
 
 public class OrderStategyFactoryImpl implements IOrderStategyFactory{
 	private static Map<OrderType, AbstractOrderStrategy> orderStrategies = new HashMap<OrderType, AbstractOrderStrategy>();

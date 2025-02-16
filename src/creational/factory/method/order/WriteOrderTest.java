@@ -1,8 +1,5 @@
 package creational.factory.method.order;
 
-import org.junit.Assert;
-import org.junit.Test;
-
 import creational.factory.method.order.dto.OrderType;
 import creational.factory.method.order.dto.Ordering;
 import creational.factory.method.order.process.AbstractOrderStrategy;
@@ -11,6 +8,8 @@ import creational.factory.method.order.process.OrderStategyFactoryImpl;
 import creational.factory.method.order.process.strategies.RetailOrderStrategy;
 import creational.factory.method.order.process.strategies.SpecialOrderStrategy;
 import creational.factory.method.order.process.strategies.WholeSaleOrderStrategy;
+import org.junit.Assert;
+import org.junit.Test;
 
 public class WriteOrderTest {
 	@Test
