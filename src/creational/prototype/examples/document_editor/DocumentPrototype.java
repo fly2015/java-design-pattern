@@ -24,6 +24,12 @@ public class DocumentPrototype {
     }
 
     @Override
+    public DocumentPrototype clone() {
+        return new DocumentPrototype(this); // Deep copy via copy constructor
+    }
+
+
+    @Override
     public String toString() {
         return "Document{" +
                 "title='" + title + '\'' +
