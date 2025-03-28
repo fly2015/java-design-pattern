@@ -1,7 +1,7 @@
 package creational.singleton.examples.general;
 
 public class SingetonWithLazyLoadDoubleCheck {
-    private static SingetonWithLazyLoadDoubleCheck instance;
+    private static volatile SingetonWithLazyLoadDoubleCheck instance;
 
     private SingetonWithLazyLoadDoubleCheck() {
     }

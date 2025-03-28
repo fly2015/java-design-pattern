@@ -1,8 +1,6 @@
 package creational.singleton.examples.general;
 
 public class SingleTonWithStaticInnerClass {
-    private static SingleTonWithStaticInnerClass instance;
-
     private SingleTonWithStaticInnerClass() {
     }
 

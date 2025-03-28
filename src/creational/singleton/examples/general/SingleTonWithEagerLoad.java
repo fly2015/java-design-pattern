@@ -1,7 +1,7 @@
 package creational.singleton.examples.general;
 
 public class SingleTonWithEagerLoad {
-    private static SingleTonWithEagerLoad instance = new SingleTonWithEagerLoad();
+    private static final SingleTonWithEagerLoad instance = new SingleTonWithEagerLoad();
 
     private SingleTonWithEagerLoad() {
     }
